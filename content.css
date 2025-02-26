@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Main Content Styles */
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+section ul, section ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+section ul li, section ol li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+section table, section th, section td {
+    border: 1px solid #ddd;
+}
+
+section th, section td {
+    padding: 10px;
+    text-align: left;
+}
+
+section th {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #2c3e50;
+    color: #fff;
+    border-radius: 8px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.75rem;
+    }
+
+    section h3 {
+        font-size: 1.25rem;
+    }
+
+    section p, section ul li, section ol li {
+        font-size: 1rem;
+    }
+
+    section table th, section table td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.75rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section h3 {
+        font-size: 1.1rem;
+    }
+
+    section p, section ul li, section ol li {
+        font-size: 0.9rem;
+    }
+
+    section table th, section table td {
+        padding: 6px;
+    }
+}
